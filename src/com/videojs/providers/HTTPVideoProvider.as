@@ -322,8 +322,8 @@ package com.videojs.providers{
                 _nc = new NetConnection();
                 _nc.client = this;
                 _nc.addEventListener(NetStatusEvent.NET_STATUS, onNetConnectionStatus);
+                _nc.connect(null);
             }
-            _nc.connect(null);
         }
         
         private function initNetStream():void{
