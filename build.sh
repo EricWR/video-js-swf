@@ -10,4 +10,4 @@
 echo "Compiling video-js.swf..."
 
 # Make sure the path to mxmlc is correct!
-/Developer/SDKs/flex_sdk_4/bin/mxmlc ./src/VideoJS.as -o ./bin-release/video-js.swf -use-network=false -static-link-runtime-shared-libraries=true -target-player=10.0.0
+/Developer/SDKs/flex_sdk_4/bin/mxmlc ./src/VideoJS.as -o ./bin-release/video-js.swf -use-network=false -static-link-runtime-shared-libraries=true -target-player=10.0.0 -swf-version=10
